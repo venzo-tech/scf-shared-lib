@@ -14,11 +14,12 @@ Please find the jenkins job url:
 </br>
 <b>JOB_URL : </b> $BUILD_URL
 </br>
-Please use below link for SonarQube result:
+Please use below link for krediq result:
 </br>
-<b>SonarQube : </b>http://localhost:9000/$sonarprojectname
+<b>KREDIQ   : </b>http://localhost:9000/
 Regards,</br>
-Mahendran Irusappan</br>
+ANAND RAJ B</br>
+VENZO TECH </br>
 
-''', mimeType:'html',subject: '[ $JOB_NAME ]#BuildNumber : $BUILD_NUMBER #Status : $BUILD_STATUS', to: 'mahivalarmathi1@gmail.com'
+''', mimeType:'html',subject: '[ $JOB_NAME ]#BuildNumber : $BUILD_NUMBER #Status : $BUILD_STATUS', to: 'anandrajb@venzotechnologies.com'
 }
